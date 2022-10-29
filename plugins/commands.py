@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/+zS7UnVVeQzhjMDE1')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,10 +45,10 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups (>50 Members) ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Main Channel⚡', url='https://t.me/TVSeriesCW')
+            InlineKeyboardButton('Main Channel⚡', url='https://t.me/+zS7UnVVeQzhjMDE1')
             ],[
-            InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
-            InlineKeyboardButton('Movies Group✨', url='https://t.me/heavenofmovies')
+            InlineKeyboardButton('OnlyFans Group✨', url='https://t.me/+zS7UnVVeQzhjMDE1'),
+            InlineKeyboardButton('Porn Group✨', url='https://t.me/+zS7UnVVeQzhjMDE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,10 +91,10 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups (>50 Members)➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Main Channel⚡', url='https://t.me/TVSeriesCW')
+            InlineKeyboardButton('Main Channel⚡', url='https://t.me/+zS7UnVVeQzhjMDE1')
             ],[
-            InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
-            InlineKeyboardButton('Movies Group✨', url='https://t.me/heavenofmovies')
+            InlineKeyboardButton('Porn Group✨', url='https://t.me/+zS7UnVVeQzhjMDE1'),
+            InlineKeyboardButton('OnlyFans Group✨', url='https://t.me/+zS7UnVVeQzhjMDE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
