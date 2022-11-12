@@ -379,15 +379,15 @@ def humanbytes(size):
 
 
 
-####################  Tnlink  ####################
+####################  Flashlink  ####################
 
 async def get_shortlink(link):
     https = link.split(":")[0]
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://easysky.in/api'
-    params = {'api': '8abee50e122616d233cb904039c4fe594fe8574c',
+    url = f'https://flashlink.in/api'
+    params = {'api': 'd9508886fae8d574f996ca33d47486c590972694',
               'url': link,
               }
 
